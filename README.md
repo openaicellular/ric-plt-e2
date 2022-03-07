@@ -12,7 +12,7 @@ To store docker images. You can create one using, (You will need "super user" pe
  
 Now you can either push or pull images using,
 
-`docker push localhost:5001/<image_name>`  or  `docker pull localhost:5001/<image_name>`
+`docker push localhost:5001/<image_name>:<image_tag>`  or  `docker pull localhost:5001/<image_name>:<image_tag>`
  
  ### Creating Docker image
 The code in this repo needs to be packaged as a docker container. We make use of the existing Dockerfile in RIC-E2-TERMINATION to do this. Execute the following commands in the given order 
